@@ -15,7 +15,7 @@ function App() {
    { products.map((element)=> {
         <div>
         <div>{element.Name}</div>
-        {/* <div><img src='{element.Image}'></img></div> */}
+        <div><img src='{element.Image}'></img></div>
         <div>{element.price}</div>
       </div>
     })}
