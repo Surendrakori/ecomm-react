@@ -12,13 +12,13 @@ function App() {
     <div>Niloufer</div>
     <div className='container'>
       <div className='items'>
-   { products.map((element)=> {
+   { products.map((element)=> (
         <div>
         <div>{element.Name}</div>
         {/* <div><img src='{element.Image}'></img></div> */}
         <div>{element.price}</div>
       </div>
-    })}
+    ))}
     </div> 
     </div>
     </>
