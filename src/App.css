@@ -1,4 +1,4 @@
-.main1{
+.container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-div .container{
+.items{
     border: solid 15px rgb(255, 184, 29);
     height: 270px;
     width: 270px;
