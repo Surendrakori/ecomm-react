@@ -6,7 +6,7 @@
     justify-content: space-around;
 }
 
-#items{
+.items{
     height: 270px;
     width: 270px;
     padding: 20px;

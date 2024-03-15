@@ -10,10 +10,10 @@ export default function Niloufer() {
   return (
         <>
     <div>Niloufer</div>
-    <div className='container'>
-      <div id='items'>
+    <div >
+      <div className='container'>
    { products.map((element)=> (
-        <div>
+        <div className='item'>
         <div>{element.Name}</div>
         <div><img src={element.Image}></img></div>
         <div>{element.price}</div>
