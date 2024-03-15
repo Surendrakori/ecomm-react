@@ -1,27 +1,11 @@
-import './App.css';
+import React from 'react'
+import Niloufer from './Niloufer'
 
-function App() {
-  const products = [
-  {id:1,Name : "Chai" ,Image:'/ECOMM-REACT/ChaiCup.jpg',price:100},
-  {id:2,Name : "Muska Bun" ,Image:"/ECOMM-REACT/MuskaBun.jpg",price:100},
-  {id:3,Name :"biscuits" ,Image:"biscuits.jpg",price:100}
-  ]
+export default function App() {
   return (
-    <>
-    <div>Niloufer</div>
-    <div className='container'>
-      <div className='items'>
-   { products.map((element)=> (
-        <div>
-        <div>{element.Name}</div>
-        <div><img src='element.Image'></img></div>
-        <div>{element.price}</div>
-      </div>
-    ))}
-    </div> 
+    <div>
+      <Niloufer/>
     </div>
-    </>
   )
 }
 
-export default App;
