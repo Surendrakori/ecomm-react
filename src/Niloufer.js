@@ -1,4 +1,5 @@
 import React from 'react'
+import './Niloufer.css'
 
 export default function Niloufer() {
     const products = [
@@ -10,7 +11,7 @@ export default function Niloufer() {
         <>
     <div>Niloufer</div>
     <div className='container'>
-      <div className='items'>
+      <div id='items'>
    { products.map((element)=> (
         <div>
         <div>{element.Name}</div>
