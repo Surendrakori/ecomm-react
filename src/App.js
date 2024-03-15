@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   const products = [
   {id:1,Name : "Chai" ,Image:'/ECOMM-REACT/ChaiCup.jpg',price:100},
-  {id:2,Name : "Muska Bun" ,Image:"MuskaBun.jpg",price:100},
+  {id:2,Name : "Muska Bun" ,Image:"/ECOMM-REACT/MuskaBun.jpg",price:100},
   {id:3,Name :"biscuits" ,Image:"biscuits.jpg",price:100}
   ]
   return (
